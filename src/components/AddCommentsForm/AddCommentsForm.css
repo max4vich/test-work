@@ -1,0 +1,29 @@
+.add_comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0, 0.4);
+    gap: 10px;
+}
+
+.add_comment div {
+    display: flex;
+    gap: 10px;
+}
+
+.add_comment h2 {
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    min-width: 300px;
+    min-height: 100px;
+}

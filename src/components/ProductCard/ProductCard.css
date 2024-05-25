@@ -1,0 +1,39 @@
+.product {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(113, 130, 148, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.product img {
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}

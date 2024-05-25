@@ -1,0 +1,14 @@
+let items = [
+    {
+        id: 1,
+        imageUrl: 'https://img2.ans-media.com/i/540x813/SS22-TOM05A_99X_F1.jpg@webp?v=1669101220',
+        name: 'Сумка Guess',
+        count: 3,
+        size: {
+            width: "40",
+            height: "60"
+        },
+        weight: '400g',
+        comment: ['CommentModel', 'CommentModel']
+    }
+]

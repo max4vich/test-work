@@ -1,0 +1,21 @@
+#add {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 120px;
+    gap: 10px;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#add h1 {
+    color: white;
+    margin: 0 auto;
+}
+
+.add_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

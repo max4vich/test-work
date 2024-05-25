@@ -1,0 +1,31 @@
+.edit_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 20px;
+    background: rgb(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    color: white;
+    border-radius: 20px;
+}
+
+.edit_modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit_modal form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit_modal .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
